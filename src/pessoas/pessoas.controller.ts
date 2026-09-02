@@ -12,7 +12,7 @@ constructor(private readonly service: PessoasService) {}
    return this.service.create(dados);
  }
 
- @Get('b')
+ @Get()
  buscatudo() {
    return this.service.findAll();
  }
